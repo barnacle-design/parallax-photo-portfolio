@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Barnacle Photography</title>
+		<link rel="stylesheet" href="base.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		
+		<div class="progress"></div>
+
+		<header>
+			<h1>Barnacle's Porfolio</h1>
+			<div class="client">East Sussex</div>
+			<div class="page">1 / 2</div>
+			<div class="pixels">0</div>
+		</header>
+
+		<section data-client="East Sussex" data-page="1 / 2">
+			<div class="content">
+				<div class="square" data-parallax="0.1"></div>
+				<img src="image1.jpg" srcset="image1.jpg, image1-2x.jpg 2x">
+				<div class="circle" data-parallax="-0.1"></div>
+			</div>
+		</section>
+
+		<section class="s2" data-client="East Sussex" data-page="2 / 2">
+			<div class="content">
+				<div class="circle" data-parallax="-0.2"></div>
+				<img src="image2.jpg" srcset="image2.jpg, image2-2x.jpg 2x">
+				<div class="square" data-parallax="0.2"></div>
+			</div>
+		</section>
+
+		<section class="s3" data-client="Catalonia" data-page="1 / 2" data-alt="1">
+			<div class="content">
+				<div class="circle" data-parallax="-0.3"></div>
+				<img src="image3.jpg" srcset="image3.jpg, image3-2x.jpg 2x">
+				<div class="square" data-parallax="0.3"></div>
+			</div>
+		</section>
+
+		<section class="s4" data-client="Catalonia" data-page="2 / 2">
+			<div class="content">
+				<div class="circle" data-parallax="0.2"></div>
+				<img src="image4.jpg" srcset="image4.jpg, image4-2x.jpg 2x">
+				<div class="square" data-parallax="0.1"></div>
+			</div>
+		</section>
+		
+		<script src="scroll.js"></script>
+
+	</body>
+
+</html>
